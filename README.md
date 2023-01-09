@@ -55,7 +55,7 @@ Here is the bar chart.
 ![image](https://user-images.githubusercontent.com/121934188/211290291-be9cf1c6-79f6-442d-85e6-567c9325b0c2.png)
 
 
-#Matrix Multiplication
+# Matrix Multiplication
 
 1.	Name 3 applications domains of matrix multiplication.
 Fourier Transform, Digital Video Processing, Basic Linear Algebra Subprograms, Robotics
