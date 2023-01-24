@@ -4,7 +4,7 @@
 Install Visual Studio.
 Install CUDA Toolkit.
 Run Developer Command Prompt for Visual Studio (for cl.exe)
-nvcc 1.cu -o 1  
+nvcc 1.cu -o 1
 1.exe 1024 (1024 is the argument value for 1.exe)
 2.	For a vector length of N:
 -	How many floating operations are being performed in your vector add kernel?
