@@ -26,7 +26,7 @@ nvprof --metrics achieved_occupancy 1.exe 1024
 - Then you can see the result like below.
 	
 		Invocations            Metric Name             Metric Description        Min         Max         Avg	
-	     	1              Achieved Occupancy         Achieved Occupancy      0.466415    0.466415    0.466415
+	       1              Achieved Occupancy         Achieved Occupancy      0.466415    0.466415    0.466415
 	 
 - Achieved Occupancy values are:
 0.466419 (Min), 0.466419 (Max), 0.466419 (Avg)
