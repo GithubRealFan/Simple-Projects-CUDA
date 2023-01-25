@@ -26,7 +26,7 @@ nvprof --metrics achieved_occupancy 1.exe 1024
 - Then you can see the result like below.
 	
 		Invocations            Metric Name             Metric Description        Min         Max         Avg	
-	       1              Achieved Occupancy         Achieved Occupancy      0.466415    0.466415    0.466415
+	        1              Achieved Occupancy         Achieved Occupancy      0.466415    0.466415    0.466415
 	 
 - Achieved Occupancy values are:
 0.466419 (Min), 0.466419 (Max), 0.466419 (Avg)
@@ -82,10 +82,12 @@ Then the number of thread blocks is ceil(128 / 32) * (128 / 32) = 16.
   Execute the command below.
 nvprof --metrics achieved_occupancy 2.exe 128 128 128
   Then you can see the result like below.
-Invocations                      Metric Name          Metric Description         Min             Ma x             Avg
-          1                achieved_occupancy          Achieved Occupancy      0.940024    0.940024    0.940024
-  Achieved Occupancy values are:
-0.940024 (Min), 0.940024 (Max), 0.940024 (Avg)
+  
+	Invocations            Metric Name                Metric Description       Min         Max          Avg
+        1                achieved_occupancy          Achieved Occupancy      0.940024    0.940024    0.940024
+	
+  	Achieved Occupancy values are: 0.940024 (Min), 0.940024 (Max), 0.940024 (Avg)
+	
 5.	For a matrix A of (511 x 1023) and B of (1023 x 4094):
 -	Did your program still work? If not, what changes did you make?
 The program works successfully without change.
