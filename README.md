@@ -81,9 +81,8 @@ Then the number of thread blocks is ceil(128 / 32) * (128 / 32) = 16.
 -	Profile your program with Nvidia Nsight. What Achieved Occupancy did you get?
   Execute the command below.
 nvprof --metrics achieved_occupancy 2.exe 128 128 128
-  Then you can see the result like below.
-  
-  
+Then you can see the result like below.
+   
 	Invocations            Metric Name                Metric Description       Min         Max          Avg
         1                achieved_occupancy          Achieved Occupancy      0.940024    0.940024    0.940024
 	
