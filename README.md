@@ -95,3 +95,4 @@ And the number of thread blocks is 2048 = ceil(511 / 32) * ceil(4094 / 32).
   The Achieved Occupancy values are:
 0.910523 (Min), 0.910523 (Max), 0.910523 (Avg)
 6.	Further increase the size of matrix A and B (any amount is OK). Plot a 
+  
