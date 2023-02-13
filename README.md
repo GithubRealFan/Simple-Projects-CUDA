@@ -15,7 +15,7 @@ So there will be only N floating operations.
 N * 2
 Vector Add Kernel reads every value in each vector only once.
 So the number of global memory reads is the same as the number of values in two vertors.
-3.	For a vector length of 1024:
+3.	For a vector length of 1024:  
 -	Explain how many CUDA threads and thread blocks you used.
 1024 threads per block and 1 thread block
 I configured the number of threads as 1024.
